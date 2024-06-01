@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtGeo.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="mainlogo.png" style="border-radius:50%">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div>
+        <img src="mainlogo.png" alt="logo" id="login-logo"><br>
+    </div>
+    <div id="login-box">
+        <img src="welcome-gif.gif" alt="Welcome" id="wel"><br><br>
+        <label for="Name"><i class="fas fa-envelope" style="color:black"></i> Email</label><br>
+        <input type="text" id="Name" placeholder="Enter your email"><br><br>
+        <label for="Password"><i class='fas fa-eye-slash' style="color:black"></i>Password</label><br>
+        <input type="password" id="Password" placeholder="password"><br>
+        <button onclick="login()" id="login">Login</button>
+        <button onclick="window.location.href='signin.html'" id="signin">Sign up</button>
+        <p id="verify"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

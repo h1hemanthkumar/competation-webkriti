@@ -4,25 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AtGeo.com</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" href="mainlogo.png" style="border-radius:50%">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="icon" href="mainlogo.png" style="border-radius:50%">
 </head>
 <body>
-    <div>
-        <img src="mainlogo.png" alt="logo" id="login-logo"><br>
+    <div id="icons-phone">
+        <div id="accounts">
+            <a href="https://github.com/h1hemanthkumar" class="fa fa-github" id="facebook"></a>
+            <a href="https://www.linkedin.com/in/hemanth-kumar-343814266/" class="fa fa-linkedin" id="linkdin"></a>
+            <a href="https://wa.me/+917483081485" class="fa fa-whatsapp" id="whatsapp"></a>
+            <a href="https://www.instagram.com/h_m_hemanth_kumar/" class="fa fa-instagram" id="instagram"></a>
+        </div>
+        <div id="phone">
+            <h3 id="number">+91 7483081485  /  +91 8971099341</h4>
+        </div>
     </div>
-    <div id="login-box">
-        <img src="welcome-gif.gif" alt="Welcome" id="wel"><br><br>
-        <label for="Name"><i class="fas fa-envelope" style="color:black"></i> Email</label><br>
-        <input type="text" id="Name" placeholder="Enter your email"><br><br>
-        <label for="Password"><i class='fas fa-eye-slash' style="color:black"></i>Password</label><br>
-        <input type="password" id="Password" placeholder="password"><br>
-        <button onclick="login()" id="login">Login</button>
-        <button onclick="window.location.href='signin.html'" id="signin">Sign up</button>
-        <p id="verify"></p>
+    <div id="navigation">
+        <div id="logos">
+            <img src="mainlogo.png" id="logo-at-nav">
+            <img src="logo-text.png" id="logo-text-nav">
+        </div>
+        <div id="nav">
+            <a><h3 class="bars" id="about">About</h3></a>
+            <a><h3 class="bars" id="news">News</h3></a>
+            <a><h3 class="bars" id="expertise">Expertise</h3></a>
+            <a><h3 class="bars" id="conversation">Conversation</h3></a>
+            <a href="contactus.html"><h3 class="bars" id="contact">Contact Us</h3></a>
+            <button onclick="location.href='index.html'"id="button" class="active">Sign in</button>
+            <button onclick="location.href='signin.html'" id="buttonu">Sign up</button>
+        </div>
     </div>
-    <script src="index.js"></script>
 </body>
+<script src="index.js"></script>
 </html>

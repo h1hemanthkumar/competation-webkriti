@@ -33,10 +33,33 @@
             <a><h3 class="bars" id="expertise">Expertise</h3></a>
             <a><h3 class="bars" id="conversation">Conversation</h3></a>
             <a href="contactus.html"><h3 class="bars" id="contact">Contact Us</h3></a>
-            <button onclick="location.href='login.html'"id="button" class="active">Sign in</button>
-            <button onclick="location.href='signup.html'" id="buttonu">Sign up</button>
+            <button onclick="location.href='login.html'"id="button" class="active" style="color:white;font-weight:bolder">Sign in</button>
+            <button onclick="location.href='signup.html'" id="buttonu" style="color:white;font-weight:bolder">Sign up</button>
         </div>
     </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <a href=contactus.html><img src="top-things-contact.png" style="width:100%;height:400px"></a>
+          <div class="text"><h2>Have a query or suggestion? Need assistance? Let's connect! Your feedback is invaluable. Visit our Contact Us page for prompt assistance and collaboration opportunities.</h3></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <a href=#about><img src="top-image-aboutus.png" style="width:100%;height:400px"></a>
+          <div class="text"><h2>Discover our journey and mission. Learn about our dedicated team and the values driving our innovation. Visit our About Us page to explore our story and commitment to excellence.</h2></div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+    </div>
+    <br>
+        
+    <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+    </div>
+    
 </body>
 <script src="index.js"></script>
 </html>

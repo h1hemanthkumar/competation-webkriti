@@ -1,6 +1,7 @@
-
-const emails=["hemanthhm693@gmail.com"];
-const passwords=["h1m1v11234"];
+let bulb=false;
+let fire=false;
+let emails=["hemanthhm693@gmail.com"];
+let passwords=["h1m1v11234"];
 let otpdone=0;
 let email;
 let randomnumber;
@@ -56,8 +57,8 @@ function signup()
     const password=document.getElementById("Password").value;
     if(otpdone)
     {   emails=[...emails,email];
-        password=[...passwords,password];
-        document.location.href="homepage.html";   
+        passwords=[...passwords,password];
+        document.location.href="index.html";   
     }
     else
     {   window.alert("Otp did not entered");    
@@ -111,3 +112,53 @@ function showSlides(n) {
 setInterval(function() {
   plusSlides(1);
 },2000);
+
+function toCheck() {
+  bulb = !bulb; 
+  const bulbElement = document.getElementById("bulb");
+  
+  if (bulb) {
+      bulbElement.src = "bulb-off.png";
+  } else {
+      bulbElement.src = "bulb-on.png"; 
+  }
+}
+function toCheckfire()
+{ fire=!fire;
+  const fireElement=document.getElementById("fire");
+  
+  if(fire)
+  {  fireElement.src="rocket-fire.png";
+  }
+  else
+  {  fireElement.src="rocket-fire-off.png";
+  }
+}
+
+/*function Vision() {
+  function ToCheck()
+  {   const [isOn, setIsOn] = React.useState(false);
+
+      setIsOn(prev => !prev);
+  
+      return (
+          <div>
+              {isOn ? <img src="bulb-off.png" alt="Bulb On"></img> : <img src="bulb-on.png" alt="Bulb Off"></img>}
+          </div>
+      );
+  }
+  return(
+      <div>
+          <div id="vision-left">
+              <h2 id="vision-head">Vision</h2>
+              <p id="vision-text">To Inspire and Lead People to be Innovative by Enriching Customers Virtual presence with Ingenuity and delivering beyond expectation.</p>
+          </div>
+          <div id="vision-right">
+              <img src="bulb-on.png" onclick="ToCheck()"></img>
+          </div>
+      </div>
+  )
+  
+}
+
+  ReactDOM.render(<Vision />, document.getElementById("vision-right"));*/

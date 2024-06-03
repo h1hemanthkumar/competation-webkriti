@@ -122,13 +122,12 @@ a{
 .slideshow-container
 {   margin-left:0px;
 }
-/* Slideshow container */
+
 .slideshow-container {
   position: relative;
   margin-left:0px;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -145,18 +144,13 @@ a{
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
-/* Caption text */
 .text {
   color: white;
   font-size: 15px;
@@ -169,7 +163,6 @@ a{
   background-color:rgba(0, 0, 0, 0.822);
   line-height:35px;
 }
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -185,7 +178,6 @@ a{
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -195,8 +187,115 @@ a{
   from {opacity: .4} 
   to {opacity: 1}
 }
-
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+#aboutthething
+{ display:flex;
+  margin-top:30px;
+  padding-left:50px;
+  padding-right:50px;
+}
+#about-text
+{ font-size:50px;
+  font-family:'Times New Roman', Times, serif;
+  color:#23134fcc;
+  margin-left:60px;
+}
+#about-right
+{ font-size:20px;
+  font-family:courier;
+  line-height:28px;
+  margin-top:30px;
+  margin-left:6px;
+}
+#visionthing{
+  margin-left:8%;
+  display:flex;
+}
+#vision-left
+{ margin-right:6px;
+  width:46%;
+  text-align:center;
+  padding-top:120px;
+  height:300px;
+}
+#vision-head
+{ font-family:Tahoma;
+  font-size:45px;
+  font-weight:100;
+  color:rgba(0,128,255,0.82);
+}
+#vision-text
+{ font-family:'Courier New', Courier, monospace;
+  font-size:20px;
+  font-weight:800;
+  line-height:30px;
+}
+#vision-right
+{ width:47%;
+  margin-left:30px;
+}
+#bulb
+{ width:200px;
+  height:300px;
+  margin-top:90px;
+  margin-left:200px;
+  border-radius:8px;
+}
+#mission-left
+{ width:47%;
+  margin-left:110px;
+}
+#fire
+{ width:200px;
+  height:300px;
+  margin-top:90px;
+  margin-left:150px;
+  border-radius:8px; 
+}
+#missionthing
+{ display:flex;
+  margin-top:80px;
+}
+#mission-right
+{ margin-right:90px;
+  width:46%;
+  text-align:center;
+  padding-top:100px;
+  height:300px;
+}
+#mission-head
+{ font-family:Tahoma;
+  font-size:45px;
+  font-weight:100;
+  color:rgba(0,128,255,0.82);
+}
+#mission-text
+{ font-family:'Courier New', Courier, monospace;
+  font-size:20px;
+  font-weight:800;
+  line-height:30px;
+}
+footer{
+  height:200px;
+  bottom:0px;
+  background-image:url(footer-background-color.png);
+  padding-left:130px;
+  padding-right:200px;
+}
+.link
+{   border-radius:50%;
+  width:50px;
+  height:50px;
+  margin-right:20px;
+}
+#flex
+{   display:flex;
+  justify-content:space-between;
+  margin-top:50px;
+}
+#second2
+{   display:flex;
+  color:white;
 }

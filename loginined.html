@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtGeo.com</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="icon" href="mainlogo.jpg" style="border-radius:50%">
+</head>
+<body>
+    <div id="icons-phone">
+        <div id="accounts">
+            <a href="https://github.com/h1hemanthkumar" class="fa fa-github" id="facebook"></a>
+            <a href="https://www.linkedin.com/in/hemanth-kumar-343814266/" class="fa fa-linkedin" id="linkdin"></a>
+            <a href="https://wa.me/+917483081485" class="fa fa-whatsapp" id="whatsapp"></a>
+            <a href="https://www.instagram.com/h_m_hemanth_kumar/" class="fa fa-instagram" id="instagram"></a>
+        </div>
+        <div id="phone">
+            <h3 id="number">+91 7483081485  /  +91 8971099341</h4>
+        </div>
+    </div>
+    <div id="navigation">
+        <div id="logos">
+            <img src="mainlogo.jpg" id="logo-at-nav">
+            <img src="logo-text.png" id="logo-text-nav">
+        </div>
+        <div id="nav">
+            <a href="music.html"><h3 class="bars" id="news">Video</h3></a>
+            <a href="audio.html"><h3 class="bars" id="expertise">Audio</h3></a>
+            <button onclick="location.href='index.html'"id="button" class="active" style="color:white;font-weight:bolder">log out</button>
+        </div>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <a href="audio.html"><img src="audio-home.jpg" style="width:100%;height:450px"></a>
+            <div class="text"><h2>Music is the universal language that speaks to the soul without uttering a single word.</h2></div>
+        </div>
+
+        <div class="mySlides fade">
+            <a href="music.html"><img src="video1.png" style="width:100%;height:450px"></a>
+            <div class="text"><h2>A video is a multimedia file that combines visual and auditory elements to convey information, tell a story, or entertain viewers. It can be in various formats and accessible on multiple platforms.</h2></div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+    </div>
+    <br>    
+    <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <div id="aboutthething">
+        <div id="about-left">
+            <h3 id="about-text">About Us</h3>
+            <img src="about-img.jpg" style="height:550px;width:600px;padding-right:20px;">
+        </div>
+        <div id="about-right">
+            <p>
+                Harmonic Tunes, one of the premier music streaming platforms in New York, is a well-organized digital service strategically located in the heart of Manhattan. Hemanth and Karthik, the co-founders of Harmonic Tunes, launched the platform in August 2010, with the vision of creating a universal soundscape. Harmonic Tunes has excelled in building a dedicated, skilled, and innovative team of professionals over the past nearly 14 years.
+            </p>
+            <hr>
+            <p>
+                Not only that, but there is a passion at work that has always allowed Harmonic Tunes to make music streaming and discovery affordable and accessible to the general public. This has greatly aided users in discovering new music, connecting with artists, simplifying listening experiences, and creating dynamic music-sharing networks, allowing the platform to function as a virtual concert hall.            </p>
+            <hr>
+            <p>
+                At Harmonic Tunes, we offer a seamless and user-friendly music streaming experience that gives your musical taste a prominent presence in the digital realm. As a result, our users praise us as the best music streaming platform in New York.            </p>
+        </div>
+    </div>
+    <div id="visionthing">
+        <div id="vision-left">
+            <h2 id="vision-head">Vision</h2>
+            <p id="vision-text">To inspire and lead people to be innovative by enriching listeners' musical experiences with creativity and delivering beyond expectations.</p>
+        </div>
+        <div id="vision-right">
+            <img id="bulb" src="bulb-on.png" onclick="toCheck()"></img>
+            <h3 style="margin-left:90px">Click on the  <i class='fas fa-hand-point-up' style="color:black;margin-right:7px;"></i> image to contribute and see the magic ✨</h3>
+        </div>    
+    </div>
+    <div id="missionthing">
+        <div id="mission-left">
+            <img id="fire" src="rocket-fire-off.png" onclick="toCheckfire()"><img>
+            <h3 style="margin-left:20px">Click on the  <i class='fas fa-hand-point-up' style="color:black;margin-right:7px;"></i> image to contribute and see the magic ✨</h3>
+        </div>
+        <div id="mission-right">
+            <h2 id="mission-head">Mission</h2>
+            <p id="mission-text">Our mission at Harmonic Tunes is to deliver exceptional music streaming experiences, support emerging artists, and foster a vibrant community of music lovers through innovation and high-quality audio.</p>
+        </div>
+    </div>
+    <footer>
+        <div id="flex">
+            <div id="first">
+                <h2 style="color:white;font-family:Arial, Helvetica, sans-serif;font-size:45px;font-weight:bolder;">Contact Us</h2>
+                <a href="https://www.linkedin.com/in/hemanth-kumar-343814266/"><image class="link" src="linkdin.png"></image></a>
+                <a href="https://wa.me/+917483081485"><image class="link" src="whatsapp.png"></image></a>
+                <a href="https://www.instagram.com/h_m_hemanth_kumar/"><img class="link" src="instagram.png"></a>
+            </div>
+            <div id="second">
+                <h2 style="color:white;font-family:Arial, Helvetica, sans-serif;font-size:45px;font-weight:bolder;">Customer Service</h2>
+                <div id=second2>
+                    <image src="Gmail.png" class="link"></image>
+                    <h2 style="padding-right:20px;">hemanthhm693@gmail.com</h2>
+                    <image src="phone.png" class="link"></image>
+                    <h2>7483081485</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>

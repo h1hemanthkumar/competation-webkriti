@@ -70,12 +70,13 @@ function AskQue()
     const email=document.getElementById("email").value;
     const number=document.getElementById("Number").value;
     const comments=document.getElementById("comments").value;
+    const file=document.getElementById("vedio").value;
     Email.send({
     SecureToken : "ceced28b-1838-4b67-a7ad-566f2d27396d",
     To :"hemanthhm693@gmail.com",
     From : "hemanthhm693@gmail.com",
     Subject : "This is the subject",
-    Body : `Name:${Name} <br>Email:${email} <br>Number:${number} <br>Comment:${comments}`
+    Body : `Name:${Name} <br>Email:${email} <br>Number:${number} <br>Comment:${comments}<br>video: ${file}`
     }).then(
     message => alert(message)
     ); 
@@ -134,6 +135,8 @@ function toCheckfire()
   {  fireElement.src="rocket-fire-off.png";
   }
 }
+
+
 
 /*function Vision() {
   function ToCheck()
